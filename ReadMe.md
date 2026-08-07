@@ -94,19 +94,12 @@ No application development was performed directly on `main`.
 ## Screenshots
 
 ### 1. Application Running
+ welcome and /health
 
-![Application Running](screenshots/application.png)
+### 2. Voting App
 
-This screenshot shows the Flask application running successfully in the browser.
-
-### 2. GitHub Branches
-
-![GitHub Branches](screenshots/branches.png)
-
-This screenshot shows the `dev` and `main` branches in the GitHub repository.
+Added voting users, Total /results, /reset
 
 ### 3. Git History
 
-![Git History](screenshots/git-history.png)
-
-This screenshot shows the Version 1 and Version 2 development and merge history.
+Added respective screeshots
