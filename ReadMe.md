@@ -95,28 +95,14 @@ No application development was performed directly on `main`.
 
 ### 1. Application Running
 
-Welcome and /health
-
-### 2. Voting App
-
-Added voting users, /results, /reset
-
-### 3. Git History
-
-To verify the evolution from Version 1 → Version 2, the following command was used:
-
-```bash
-git log --oneline --graph --decorate main dev
-```
-Screenshots are stored in the Screenshots/ folder
-Screenshots of commit and merge history
-
 * #### Welcome Screenshot
 ![Welcome Screenshot](Screenshots/welcome.png)
 
 * #### Health Status
 ![Health Status](Screenshots/health.png)
 
+### 2. Voting App
+Added voting users, /results, /reset
 * #### Vote Recorded
 ![Vote Recorded](Screenshots/nikhil_vote.png)
 
@@ -126,11 +112,30 @@ Screenshots of commit and merge history
 * #### Reset
 ![Reset](Screenshots/reset.png)
 
-* #### Browser Flow
-![Browser Test All commits](Screenshots/All_Commits.png)
+### 3. Git History
+To verify the evolution from Version 1 → Version 2, the following command was used:
+
+```bash
+git log --oneline --graph --decorate main dev
+```
+Screenshots are stored in the Screenshots/ folder
+Screenshots of commit and merge history
+
+### Version 1
+- Commit: 6a03ae3
+- Features: Initial Flask app with `/` and `/health` endpoints.
+
+![Version 1 Commit Screenshot](Screenshots/git_version1.png)
+
+### Version 2
+- Commits: 3db470f,285d548, 51271c2
+- Features: Added `/vote/<name>`, `/results`, `/reset` endpoints and updated README.
+
+![Version 2 Commit Screenshot](Screenshots/git_version2.png)
+
+
+* #### GIT Repositories
+![GIT Repos](Screenshots/Repo_Branches.png)
 
 * #### GIT Commit History
 ![GIT Commit History](Screenshots/Commit_History.png)
-
-* ####  Repo Branches
-![Repo Branches](Screenshots/Repo_Branches.png)
