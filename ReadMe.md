@@ -94,12 +94,43 @@ No application development was performed directly on `main`.
 ## Screenshots
 
 ### 1. Application Running
- welcome and /health
+
+Welcome and /health
 
 ### 2. Voting App
 
-Added voting users, Total /results, /reset
+Added voting users, /results, /reset
 
 ### 3. Git History
 
-Added respective screeshots
+To verify the evolution from Version 1 → Version 2, the following command was used:
+
+```bash
+git log --oneline --graph --decorate main dev
+```
+Screenshots are stored in the Screenshots/ folder
+Screenshots of commit and merge history
+
+* #### Welcome Screenshot
+![Welcome Screenshot](Screenshots/welcome.png)
+
+* #### Health Status
+![Health Status](Screenshots/health.png)
+
+* #### Vote Recorded
+![Vote Recorded](Screenshots/nikhil_vote.png)
+
+* #### Vote Results
+![Vote Results](Screenshots/results.png)
+
+* #### Reset
+![Reset](Screenshots/reset.png)
+
+* #### Browser Flow
+![Browser Test All commits](Screenshots/All Commits.png)
+
+* #### GIT Commit History
+![GIT Commit History](Screenshots/Commit History.png)
+
+* ####  Repo Branches
+![Repo Branches](Screenshots/Repo Branches.png)
