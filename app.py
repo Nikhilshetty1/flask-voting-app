@@ -9,7 +9,7 @@ def home():
 @app.route("/health")
 def health():
     return "App is running"
-
+# Voting Application
 @app.route("/vote/<name>")
 def vote(name):
     votes[name] = votes.get(name, 0) + 1
