@@ -127,10 +127,10 @@ Screenshots of commit and merge history
 ![Reset](Screenshots/reset.png)
 
 * #### Browser Flow
-![Browser Test All commits](Screenshots/All Commits.png)
+![Browser Test All commits](Screenshots/All_Commits.png)
 
 * #### GIT Commit History
-![GIT Commit History](Screenshots/Commit History.png)
+![GIT Commit History](Screenshots/Commit_History.png)
 
 * ####  Repo Branches
-![Repo Branches](Screenshots/Repo Branches.png)
+![Repo Branches](Screenshots/Repo_Branches.png)
